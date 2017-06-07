@@ -9,8 +9,7 @@ email server running that relies on local logins anyway) and use Radicale's righ
 
 ## How does it work
 
-As a Radicale auth module it's only suppose to provide authentication means for a given user.
-This module will check the provided user name and password with PAM (using the package ``python-pam``).
+This module will check the user name and password, which is provided by Radicale, with PAM (using the package ``python-pam``).
 
 ## How to use it
 
@@ -33,4 +32,4 @@ For the version of Radicale packaged in Debian, you'd need to add the user
 
 ## Maturity status
 
-I used this plugin a few hours to test Radicale and it worked, should be pretty solid. ;)
+I used this plugin a few hours to test Radicale and it worked – should be pretty solid. ;)
